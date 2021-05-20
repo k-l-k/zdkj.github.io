@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+     <title>ZD科技</title>
+</head>
+<body>
+<div id="div1" style="width:100%;z-index:999"></div><div id=shadow style="width:100%;height:100%;background:rgba(0,0,0,0.5);position:fixed;left:0;top:0"><input id=pas type=text placeholder=请输入暗号 style="margin:0 auto;margin-top:20%;display:block"><input type=button onclick="if(pas.value=='sblag')shadow.remove();" value=confirm style="margin:0 auto;display:block;width:195px"></div>
+<div id="button">
+<input type="text" id="href" placeholder="输入网址" style="width:100px"><br>
+<input type="button" value="生成网页" onclick="webCreate()">
+<input type="button" value="跳转网页" onclick="webJump()">
+</div>
+</body>
+</html>
